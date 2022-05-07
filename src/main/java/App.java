@@ -14,7 +14,9 @@ public class App {
             Map<String, Object> model = new HashMap<String, Object>();
             return new ModelAndView(model, "index.hbs");
         }, new HandlebarsTemplateEngine());
-        get("/", (request, response) -> {
+
+
+        get("/animalform", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
             return new ModelAndView(model, "animalform.hbs");
         }, new HandlebarsTemplateEngine());

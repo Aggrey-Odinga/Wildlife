@@ -42,27 +42,30 @@
     <h1 class="h1-reponsive text-warning text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 animate shake"><strong> Wildlife Tracker</strong></h1>
 </div>
 
+
+
 <div class="container">
 
-    <div class="card-deck">
-        <!-- First Card -->
-        <div class="card">
-            <img src="/images/endagered2.jpg">
-            <div class="card-title">Animals</div>
-            <div><a href="" class="white-text">Add Regular animal</a></div>
+        <div class="card-deck">
+            <!-- First Card -->
+            <div class="card">
+                <img src="/images/endagered2.jpg">
+                <div class="card-title">Animals</div>
+                <div><a href="/animalform" class="white-text">Add Regular animal</a></div>
+            </div>
+            <!-- Second Card -->
+            <div class="card">
+                <img src="/images/endagered-animals.jpg">
+                <div class="card-title">Endangered Animals</div>
+                <div><a href="/animals/new" class="white-text">Add Endangered Animal</a></div>
+            </div>
+            <div class="card">
+                <img src="/images/endagered3.jpg">
+                <div class="card-title">Sightings</div>
+                <div><a href="/animals/new" class="white-text">Add Sighting</a></div>
+            </div>
         </div>
-        <!-- Second Card -->
-        <div class="card">
-            <img src="/images/endagered-animals.jpg">
-            <div class="card-title">Endangered Animals</div>
-            <div><a href="/animals/new" class="white-text">Add Endangered Animal</a></div>
-        </div>
-        <div class="card">
-            <img src="/images/endagered3.jpg">
-            <div class="card-title">Sightings</div>
-            <div><a href="/animals/new" class="white-text">Add Sighting</a></div>
-        </div>
-    </div>
+
 
     {{#block "content"}}
 
@@ -73,6 +76,10 @@
     {{/block}}
 
 </div>
+
+
+
+
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
