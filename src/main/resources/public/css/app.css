@@ -45,6 +45,9 @@ body {
     margin-right: 150px;
     align-items: center;
 }
+.navbar-toggler{
+    color: white;
+}
 
 
 
