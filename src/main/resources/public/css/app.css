@@ -42,7 +42,7 @@ body {
 .navbar-nav a{
     font-size: 1.4rem;
     text-transform: uppercase;
-    margin-right: 60px;
+    margin-left: 300px;
 }
 
 .navbar-nav a:hover, .dropdown-menu:hover .dropdown-toggle {
