@@ -27,9 +27,16 @@ public class App {
         }, new HandlebarsTemplateEngine());
 
 
+
         get("/animals", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
             return new ModelAndView(model, "animals.hbs");
+        }, new HandlebarsTemplateEngine());
+
+
+        get("/endangeredanimalform", (request, response) -> {
+            Map<String, Object> model = new HashMap<String, Object>();
+            return new ModelAndView(model, "endangeredanimalform.hbs");
         }, new HandlebarsTemplateEngine());
 
     }

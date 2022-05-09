@@ -6,6 +6,44 @@
 
 {{#partial "content"}}
 
+    <div class="mask rgba-black-light align-items-center">
+        <div class="container">
+            <div class="indexRow">
+                <div class="col-md-12 mb-4 white-text text-center">
+                    <h1 class="h1-reponsive text-warning text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 animated wobble"><strong> Add Endangered Animal </strong></h1>
+                    <div class="row">
+                        <div class="col-sm-12 col-sm-offset-8">
+                            <form action="/animals" method="post">
+                                <div class="form-group">
+                                    <label for="name">Name</label>
+                                    <input type="text" name="name" class="form-control transparentInputFields">
+                                </div>
+                                <div class="form-group ">
+                                    <label for="health">Health</label>
+                                    <select id="health" name="health" type="text" class="form-control transparentInputFields">
+                                        <option value="Healthy">Healthy</option>
+                                        <option value="Okay">Okay</option>
+                                        <option value="Ill">Ill</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="age">Age</label>
+                                    <select id="age" name="age" type="text" class="form-control transparentInputFields">
+                                        <option value="Newborn">Newborn</option>
+                                        <option value="Young">Young</option>
+                                        <option value="Adult">Adult</option>
+                                    </select>
+                                </div>
+                                <button class="btn btn-info" type="submit" name="add-animal">Add Animal</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
 
 
