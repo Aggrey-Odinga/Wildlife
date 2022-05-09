@@ -7,23 +7,23 @@
 {{#partial "content"}}
 
     <div class="mask rgba-black-light align-items-center">
-        <div class="form">
-            <h1><strong>Add Animal:  </strong></h1>
-                <div class="row">
-                    <div class="form1">
-                        <div class="content">
-                            <div class="col-sm-12 col-sm-offset-8">
-                                 <form action="/animals" method="post">
-                                       <div class="form-group">
-                                             <label for="name">Animal Name:</label>
-                                             <input type="text" id="name" name="name" class="form-control">
-                                       </div>
-                                             <button class="btn btn-info " type="submit" name="add-animal">Add</button>
-                                 </form>
-                            </div>
+        <div class="container">
+            <div class="indexRow">
+                <div class="col-md-12 mb-4 white-text text-center">
+                    <h1><strong>Add Animal:  </strong></h1>
+                    <div class="row">
+                        <div class="col-sm-12 col-sm-offset-8">
+                            <form action="/animals" method="post">
+                                <div class="form-group">
+                                    <label for="name">Animal Name:</label>
+                                    <input type="text" id="name" name="name" class="form-control">
+                                </div>
+                                <button class="btn btn-info " type="submit" name="add-animal">Add</button>
+                            </form>
                         </div>
                     </div>
                 </div>
+            </div>
         </div>
     </div>
 {{/partial}}
