@@ -50,4 +50,4 @@ To set up the database:
 
 - Email me at: aggreyodinga@gmail.com
 
-## [License](https://github.com/Aggrey-Odinga/Hero/blob/master/LICENSE)
+## [License](https://github.com/Aggrey-Odinga/Wildlife/blob/main/LICENSE)
